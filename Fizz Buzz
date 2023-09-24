@@ -1,4 +1,61 @@
-How to Find Out Fizz Buzz in Python
-Which number is divided by 3 is Fizz 
-Which number is divided by 5 is Buzz
-Which number is divided by both 3 and 5 is Fizz Buzz
+for number in range (50):
+    if number %3==0 and number %5==0:
+        print('Fizz Buzz')
+    elif number %3==0:
+        print('Fizz')
+    elif number %5==0:
+        print('Buzz')
+    else:
+        print(number)
+
+Output 
+Fizz Buzz
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+Fizz Buzz
+16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+Fizz Buzz
+31
+32
+Fizz
+34
+Buzz
+Fizz
+37
+38
+Fizz
+Buzz
+41
+Fizz
+43
+44
+Fizz Buzz
+46
+47
+Fizz
+49
